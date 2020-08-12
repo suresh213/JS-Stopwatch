@@ -1,0 +1,82 @@
+body{
+    background-color:#3eaec9 ;
+}
+
+.stopwatch{
+    background-color: #ffffff;
+    width: 450px;
+    height: 230px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.heading{
+    background-color: rgb(42, 28, 94);
+    height: 40px;
+    font-family: 'Roboto', sans-serif; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.txt{
+     text-align: center;
+    color:white;
+    font-size: 30px;
+}
+
+#startstop-btn{
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 20px;
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 9px 25px;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s;
+    outline: none;
+    margin-left: 110px;
+    cursor: pointer;
+}
+#startstop-btn:hover {
+    background-color: #801414;
+    color: white;
+  }
+#reset-btn{
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 20px;
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 9px 25px;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s;
+    outline: none;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+#reset-btn:hover {
+    background-color: #7a580f;
+    color: white;
+  }
+
+.numbertext{
+    padding: 25px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn{
+    margin-top: 10px;
+}
+
+.footer{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
